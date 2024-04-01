@@ -33,7 +33,7 @@
 
 /* PARTE REFERENTE AO CABEÇALHO */
 
-body {
+.body_cabecalho {
     width: 100%;
     height: 100%;
     margin: auto;
@@ -109,6 +109,7 @@ body {
     text-align: left;
 }
 
+/* PARTE REFERENTE AO RODAPÉ */
 
 /* PARTE REFERENTE TODAS AS INFORMAÇÕES DO FINAL DA PÁGINA */
 
@@ -154,7 +155,7 @@ body {
     height: 40%;
 }
 
-/* PARTE REFERENTE AO RODAPÉ */
+/* PARTE REFERENTE AO RODAPÉ (LOGO, REDES SOCIAIS, DIREITOS RESERVADOS */
 
 .rodape { /*CONFIGURAÇÕES COMUNS DO RODAPE*/
     width: 100vw;
@@ -200,8 +201,7 @@ body {
     height: 30%;
 }
 
-.rodape_terciario p { /*A FRASE DE TODOS OS DIREITOS RESERVADOS
-    */
+.rodape_terciario p { /*A FRASE DE TODOS OS DIREITOS RESERVADOS*/
     font-family: 'fonte_intelo_medium';
     color: #6f6f87;
     font-size: 70%

@@ -33,6 +33,10 @@
 
 /* PARTE REFERENTE AO CABEÇALHO */
 
+* {
+    background: #fafdff
+}
+
 .body_cabecalho {
     width: 100%;
     height: 100%;

@@ -6,11 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./css/main.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <script src="jquery-3.7.1.js"></script>
+    <script>
+        $(function(){ 
+                  $("#header").load("header.html");
+                  $("#footer").load("footer.html"); 
+         });
+   </script>
     <title>SunWeb - Néos</title>
 </head>
 
 <body>
+    <div id="header"></div>
+
     <p class="titulo_pagina">SunWeb</p>
+
+    <div id="footer"></div>
 </body>
 
 </html>

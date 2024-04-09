@@ -37,12 +37,6 @@
     background: #fafdff
 }
 
-.body_cabecalho {
-    width: 100%;
-    height: 100%;
-    margin: auto;
-}
-
 .cabecalho { /*CONFIGURAÇÕES COMUNS DO CABEÇALHO*/
     width: 100vw;
     background: #fafdff;
@@ -54,37 +48,37 @@
     justify-content: center;
 }
 
-.cabecalho_primario { /*A IMAGEM LOGO NÉOS*/
+.cabecalho_logo { /*A IMAGEM LOGO NÉOS*/
     display: flex;
     justify-content: center;
     width: 20%;
     height: 100%;
 }
 
-.cabecalho_primario a { /*A IMAGEM LOGO NÉOS*/
+.cabecalho_logo a { /*A IMAGEM LOGO NÉOS*/
     height: inherit;
     display: flex;
     align-items: center;
 }
 
-.cabecalho .cabecalho_primario a #logo_neos { /*A IMAGEM LOGO NÉOS*/
+.cabecalho .cabecalho_logo a #logo_neos { /*A IMAGEM LOGO NÉOS*/
     height: 30%;
 }
 
-.cabecalho_secundario { /*AS OPÇÕES DE MENU*/
+.cabecalho_menus { /*AS OPÇÕES DE MENU*/
     display: flex;
     justify-content: center;
     width: 80%;
     height: 100%;
 }
 
-.cabecalho_secundario a { /*AS OPÇÕES DE MENU*/
+.cabecalho_menus a { /*AS OPÇÕES DE MENU*/
     height: inherit;
     display: flex;
     align-items: center;
 }
 
-.cabecalho_secundario a img { /*AS OPÇÕES DE MENU*/
+.cabecalho_menus a img { /*AS OPÇÕES DE MENU*/
     height: 30%;
 }
 
@@ -116,50 +110,6 @@
 /* PARTE REFERENTE AO RODAPÉ */
 
 /* PARTE REFERENTE TODAS AS INFORMAÇÕES DO FINAL DA PÁGINA */
-
-.todas_informacoes { /*CONFIGURAÇÕES COMUNS DE TODAS AS INFORMAÇÕES*/
-    width: 100vw;
-    background: #fafdff;
-    border-top: 0.5px solid #89cdfc;;
-    height: 20vh;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.informacao { /*ONDE ESTÁ AS INFORMAÇÕES*/
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 30%;
-    height: 100%;
-    align-items: center;
-    text-decoration: none;
-} 
-
-.titulo_informacoes { /*OS TITULOS DAS INFORMAÇÕES*/
-    font-family: 'fonte_intelo_light_bold';
-    margin: 0px 2% 0px 2%;
-    color: #00274f;
-    text-decoration: none;
-    font-size: 130%
-}
-
-.sub_titulo_informacoes { /*OS SUB TITULOS DAS INFORMAÇÕES*/
-    font-family: 'fonte_intelo_medium';
-    margin: 0px 2% 0px 2%;
-    color: #00274f;
-    text-decoration: none;
-    font-size: 100%
-}
-
-.informacao img { /*AS IMAGENS DE CONTATO DE INFORMAÇÕES*/
-    height: 40%;
-}
-
-/* PARTE REFERENTE AO RODAPÉ (LOGO, REDES SOCIAIS, DIREITOS RESERVADOS */
 
 .rodape { /*CONFIGURAÇÕES COMUNS DO RODAPE*/
     width: 100vw;
@@ -210,6 +160,52 @@
     color: #6f6f87;
     font-size: 70%
 }
+
+.rodape_todas_informacoes { /*CONFIGURAÇÕES COMUNS DE TODAS AS INFORMAÇÕES*/
+    width: 100vw;
+    background: #fafdff;
+    border-top: 0.5px solid #89cdfc;;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.informacao { /*ONDE ESTÁ AS INFORMAÇÕES*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+    align-items: center;
+    text-decoration: none;
+} 
+
+.titulo_informacoes { /*OS TITULOS DAS INFORMAÇÕES*/
+    font-family: 'fonte_intelo_light_bold';
+    margin: 0px 2% 0px 2%;
+    color: #00274f;
+    text-decoration: none;
+    font-size: 130%
+}
+
+.sub_titulo_informacoes { /*OS SUB TITULOS DAS INFORMAÇÕES*/
+    font-family: 'fonte_intelo_medium';
+    margin: 0px 2% 0px 2%;
+    color: #00274f;
+    text-decoration: none;
+    font-size: 100%
+}
+
+.informacao img { /*AS IMAGENS DE CONTATO DE INFORMAÇÕES*/
+    height: 40%;
+}
+
+/* PARTE REFERENTE AO RODAPÉ (LOGO, REDES SOCIAIS, DIREITOS RESERVADOS */
+
+
 
 /* pesquisar os tipos de display e ver como funciona, principalmente o flex */
 

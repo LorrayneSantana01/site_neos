@@ -109,59 +109,17 @@
 
 /* PARTE REFERENTE AO RODAPÉ */
 
-/* PARTE REFERENTE TODAS AS INFORMAÇÕES DO FINAL DA PÁGINA */
-
 .rodape { /*CONFIGURAÇÕES COMUNS DO RODAPE*/
     width: 100vw;
     background: #fafdff;
     height: 15vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.rodape_primario { /*A IMAGEM LOGO N*/
-    display: flex;
-    justify-content: center;
-    width: 20%;
-    height: 100%;
-}
-
-.rodape_primario a { /*A IMAGEM LOGO N*/
-    height: inherit;
-    display: flex;
-    align-items: center;
-}
-
-.rodape .rodape_primario a #logo_n { /*A IMAGEM LOGO N*/
-    height: 80%;
-}
-
-.rodape_secundario { /*A IMAGENS DE REDES SOCIAIS*/
-    display: flex;
-    justify-content: space-between;
-    width: 50%;
-    height: 100%;
-}
-
-.rodape_secundario a { /*A IMAGENS DE REDES SOCIAIS*/
-    height: inherit;
-    display: flex;
-    align-items: center;
-}
-
-.rodape_secundario a img { /*A IMAGENS DE REDES SOCIAIS*/
-    height: 30%;
-}
-
-.rodape_terciario p { /*A FRASE DE TODOS OS DIREITOS RESERVADOS*/
-    font-family: 'fonte_intelo_medium';
-    color: #6f6f87;
-    font-size: 70%
-}
-
-.rodape_todas_informacoes { /*CONFIGURAÇÕES COMUNS DE TODAS AS INFORMAÇÕES*/
+.rodape_informacoes { /*CONFIGURAÇÕES COMUNS DE TODAS AS INFORMAÇÕES*/
     width: 100vw;
     background: #fafdff;
     border-top: 0.5px solid #89cdfc;;
@@ -174,7 +132,7 @@
 
 .informacao { /*ONDE ESTÁ AS INFORMAÇÕES*/
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     width: 30%;
@@ -203,12 +161,59 @@
     height: 40%;
 }
 
-/* PARTE REFERENTE AO RODAPÉ (LOGO, REDES SOCIAIS, DIREITOS RESERVADOS */
+.rodape_midias {
+    width: 100vw;
+    background: #fafdff;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+.rodape_logo { /*A IMAGEM LOGO N*/
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.rodape_logo a { /*A IMAGEM LOGO N*/
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.rodape .rodape_logo a #logo_n { /*A IMAGEM LOGO N*/
+    height: 80%;
+}
+
+.rodape_social_media { /*A IMAGENS DE REDES SOCIAIS*/
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
+}
+
+.rodape_social_media a { /*A IMAGENS DE REDES SOCIAIS*/
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.rodape_social_media a img { /*A IMAGENS DE REDES SOCIAIS*/
+    height: 30%;
+}
+
+.rodape_todos_direitos p { /*A FRASE DE TODOS OS DIREITOS RESERVADOS*/
+    font-family: 'fonte_intelo_medium';
+    color: #6f6f87;
+    font-size: 70%
+}
 
 
 /* pesquisar os tipos de display e ver como funciona, principalmente o flex */
-
 
 /* 
 .social_media_link -> seleciona uma classe

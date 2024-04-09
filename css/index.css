@@ -1,0 +1,67 @@
+/* PARTE REFERENTE A FONTES EXTERNAS */
+
+@font-face {
+    font-family: 'fonte_intelo_light';
+    src: url('fonts/intelo-light-webfont.woff2') format('woff2'),
+         url('fonts/intelo-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fonte_intelo_light_bold';
+    src: url('fonts/intelo-alt-bold.woff2') format('woff2'),
+         url('fonts/intelo-alt-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fonte_intelo_medium';
+    src: url('fonts/intelo-medium-webfont.woff2') format('woff2'),
+         url('fonts/intelo-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fonte_exo_2_bold';
+    src: url('fonts/Exo2-Bold.ttf') format('ttf'),
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* PARTE REFERENTE AO CABEÇALHO */
+
+* {
+    background: #fafdff
+}
+
+/* PARTE REFERENTE AO TÍTULO DE CADA PÁGINA */
+
+.titulo_pagina {
+    font-family: 'fonte_intelo_light_bold';
+    margin: 0% 0% 0% 0%; /*TENHO QUE AJEITAR AS MARGENS*/
+    color: #00274f;
+    text-decoration: none;
+    width: 100vw;
+    background: #f9fafc;
+    height: 10vh;
+    font-size: 200%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+/* pesquisar os tipos de display e ver como funciona, principalmente o flex */
+
+/* 
+.social_media_link -> seleciona uma classe
+#logo_n -> seleciona um id
+footer a -> seleciona todos os links dentro de footer
+footer a img -> seleciona todas as imagens dentro de link dentro de footer
+body footer .social_media_link img -> seleciona todas as imagens dentro da classe .social_media_link dentro de footer dentro de body
+.rodape_principal a -> seleciona todos os links dentro da classe rodape_principal
+ */

@@ -1,0 +1,51 @@
+.cabecalho { /*CONFIGURAÇÕES COMUNS DO CABEÇALHO*/
+    width: 100vw;
+    background: #fafdff;
+    border: 0.5px solid #89cdfc;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cabecalho_logo { /*A IMAGEM LOGO NÉOS*/
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: 100%;
+}
+
+.cabecalho_logo a { /*A IMAGEM LOGO NÉOS*/
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho .cabecalho_logo a #logo_neos { /*A IMAGEM LOGO NÉOS*/
+    height: 30%;
+}
+
+.cabecalho_menus { /*AS OPÇÕES DE MENU*/
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+}
+
+.cabecalho_menus a { /*AS OPÇÕES DE MENU*/
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho_menus a img { /*AS OPÇÕES DE MENU*/
+    height: 30%;
+}
+
+.menu_item { /*AS OPÇÕES DE MENU*/
+    font-family: 'fonte_intelo_medium';
+    margin: 0px 2% 0px 2%;
+    color: #00274f;
+    text-decoration: none;
+}

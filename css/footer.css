@@ -1,0 +1,102 @@
+.rodape { /*CONFIGURAÇÕES COMUNS DO RODAPE*/
+    width: 100vw;
+    background: #fafdff;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-top: 0.5px solid #89cdfc;
+}
+
+.rodape_informacoes { /*CONFIGURAÇÕES COMUNS DE TODAS AS INFORMAÇÕES*/
+    width: 100vw;
+    background: #fafdff;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.informacao { /*ONDE ESTÁ AS INFORMAÇÕES*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+    align-items: center;
+    text-decoration: none;
+} 
+
+.titulo_informacoes { /*OS TITULOS DAS INFORMAÇÕES*/
+    font-family: 'fonte_intelo_light_bold';
+    margin: 0px 2% 0px 2%;
+    color: #00274f;
+    text-decoration: none;
+    font-size: 130%
+}
+
+.sub_titulo_informacoes { /*OS SUB TITULOS DAS INFORMAÇÕES*/
+    font-family: 'fonte_intelo_medium';
+    margin: 0px 2% 0px 2%;
+    color: #00274f;
+    text-decoration: none;
+    font-size: 100%
+}
+
+.informacao img { /*AS IMAGENS DE CONTATO DE INFORMAÇÕES*/
+    height: 40%;
+}
+
+.rodape_midias {
+    width: 100vw;
+    background: #fafdff;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.rodape_logo { /*A IMAGEM LOGO N*/
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.rodape_logo a { /*A IMAGEM LOGO N*/
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.rodape .rodape_logo a #logo_n { /*A IMAGEM LOGO N*/
+    height: 80%;
+}
+
+.rodape_social_media { /*A IMAGENS DE REDES SOCIAIS*/
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
+}
+
+.rodape_social_media a { /*A IMAGENS DE REDES SOCIAIS*/
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.rodape_social_media a img { /*A IMAGENS DE REDES SOCIAIS*/
+    height: 30%;
+}
+
+.rodape_todos_direitos p { /*A FRASE DE TODOS OS DIREITOS RESERVADOS*/
+    font-family: 'fonte_intelo_medium';
+    color: #6f6f87;
+    font-size: 70%
+}

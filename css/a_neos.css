@@ -1,15 +1,40 @@
 .sobre_a_neos{
-
+    flex-direction: column;
+    padding: 1%;
 }
 
 .sobre_a_neos_video{
+    height: 100%;
+}
 
+.sobre_a_neos_titulo{
+    font-family: 'fonte_intelo_light_bold';
+    color: #0075CD;
+    font-size: 200%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 .sobre_a_neos_primeiro_paragrafo{
-    
+    font-family: 'fonte_intelo_light';
+    color: #6F6F87;
+    height: 15vh;
+    font-size: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 .sobre_a_neos_segundo_paragrafo{
-
+    font-family: 'fonte_intelo_light';
+    color: #6F6F87;
+    height: 15vh;
+    font-size: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
 }

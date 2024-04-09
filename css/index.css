@@ -34,7 +34,7 @@
 /* PARTE REFERENTE AO CABEÇALHO */
 
 * {
-    background: #fafdff
+    background: #fafdff;    
 }
 
 /* PARTE REFERENTE AO TÍTULO DE CADA PÁGINA */
@@ -53,6 +53,7 @@
     align-content: center;
     flex-wrap: wrap;
     text-align: left;
+    padding: 1%;
 }
 
 /* pesquisar os tipos de display e ver como funciona, principalmente o flex */

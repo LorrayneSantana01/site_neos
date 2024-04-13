@@ -3,7 +3,13 @@
     padding: 1%;
 }
 
+.sobre_a_neos_video_titulo_texto{
+    display: flex;
+    flex-direction: row;
+}
+
 .sobre_a_neos_video{
+    width: 50vw;
     height: 100%;
 }
 
@@ -11,30 +17,106 @@
     font-family: 'fonte_intelo_light_bold';
     color: #0075CD;
     font-size: 200%;
-    display: flex;
-    flex-direction: row;
+    align-content: center;
+    height: 10%;
+}
+
+.sobre_a_neos_texto{
+    font-family: 'fonte_intelo_light';
+    color: #6F6F87;
+    height: 90%;
+    width: 54vw;
+    font-size: 100%;
     align-content: center;
     flex-wrap: wrap;
 }
 
-.sobre_a_neos_primeiro_paragrafo{
-    font-family: 'fonte_intelo_light';
-    color: #6F6F87;
-    height: 15vh;
-    font-size: 100%;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    flex-wrap: wrap;
+.sobre_a_neos_texto > p{
+    font-weight: 600;
 }
 
-.sobre_a_neos_segundo_paragrafo{
-    font-family: 'fonte_intelo_light';
-    color: #6F6F87;
-    height: 15vh;
-    font-size: 100%;
+.historia_neos{
+    flex-direction: column;
+    padding: 2%;
+    background-color: #ededed;
+}
+
+.historia_titulo{
+    font-family: 'fonte_intelo_light_bold';
+    color: #0075CD;
+    font-size: 200%;
+    align-content: center;
+    height: 10%;
+}
+
+.historia_mais_sobre_a_neos{
     display: flex;
     flex-direction: row;
-    align-content: center;
-    flex-wrap: wrap;
+    font-family: 'fonte_intelo_light';
+    color: #6F6F87;
+}
+
+.historia_texto_um{
+    width: 50vw;
+}
+
+.historia_texto_um > p{
+    font-weight: 600;
+}
+
+.historia_texto_dois{
+    width: 50vw;
+}
+
+.historia_texto_dois > p{
+    font-weight: 600;
+}
+
+.historia_foco_proposito_visao{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.historia_elemento{
+    background-color: #13346b;
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    padding: 1.5%;
+}
+
+.historia_foco_proposito_visao_textos{
+    padding: 0% 0% 0% 3%;
+}
+
+.historia_foco_proposito_visao_icone > img{
+    width: 50px;
+    height: 50px;
+}
+
+.historia_foco_proposito_visao_titulo{
+    font-family: 'fonte_intelo_light_bold';
+}
+
+.historia_foco_proposito_visao_titulo > p{
+    font-size: 20px;
+    color: #89CDFC;
+}
+
+.historia_foco_proposito_visao_texto{
+    font-family: 'fonte_intelo_light';
+    color: #ffffff
+}
+
+.bg_1{
+    background-color: #13346b;
+}
+
+.bg_2{
+   background-color: #0075CD; 
+}
+
+.bg_3{
+   background-color: #F29166; 
 }

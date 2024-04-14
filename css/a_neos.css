@@ -29,9 +29,6 @@
     font-size: 100%;
     align-content: center;
     flex-wrap: wrap;
-}
-
-.sobre_a_neos_texto > p{
     font-weight: 600;
 }
 
@@ -58,17 +55,11 @@
 
 .historia_texto_um{
     width: 50vw;
-}
-
-.historia_texto_um > p{
     font-weight: 600;
 }
 
 .historia_texto_dois{
     width: 50vw;
-}
-
-.historia_texto_dois > p{
     font-weight: 600;
 }
 
@@ -97,9 +88,6 @@
 
 .historia_foco_proposito_visao_titulo{
     font-family: 'fonte_intelo_light_bold';
-}
-
-.historia_foco_proposito_visao_titulo > p{
     font-size: 20px;
     color: #89CDFC;
 }

@@ -39,6 +39,11 @@
     align-items: center;
 }
 
+.cabecalho_menus a:hover{
+    color: #0075CD;
+    transition: .4s;
+}
+
 .cabecalho_menus a img { /*AS OPÇÕES DE MENU*/
     height: 30%;
 }

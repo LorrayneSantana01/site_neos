@@ -52,3 +52,8 @@
     width: 33%;
     cursor: pointer;
 }
+
+.sunweb_botao:hover{
+    background-color: #13346b;
+    transition: .4s;
+}

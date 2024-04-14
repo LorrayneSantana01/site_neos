@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+}
+
+#contato_formulario {
+    font-family: 'fonte_intelo_bold';
+    color: #6F6F87;
+    height: 100%;
+    width: 50%;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #6F6F87;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button{
+    font-family: 'fonte_intelo_light_bold';
+    font-size: 110%;
+    color: #ffffff;
+    background-color: #0075CD;
+    height: 40px;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #13346b;
+    transition: .4s;
+}

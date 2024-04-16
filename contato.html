@@ -22,25 +22,49 @@
 
     <p class="titulo_pagina">Contato</p>
 
-    <form id="contato_formulario">
-        <div>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
+    <div class="contato">
+        <div class="contato_titulo_texto_informacoes">
+            <div class="contato_titulo">
+                <p>Entre em contato conosco!</p>
+            </div>
+            <div class="contato_texto">
+                <p>Sinta-se à vontade para nos enviar uma mensagem, será sempre um prazer respondê-lo.</p>
+            </div>
+            <div class="contato_informacoes">
+                <div class="contato_informacoes_imagem">
+                    <img src="./img/telefone_contato.png"/>
+                    <img src="./img/telefone_contato.png"/>
+                    <img src="./img/email_contato.png"/>
+                    <img src="./img/email_contato.png"/>
+                </div>
+                <div class="contato_informacoes_texto">
+                    <p><b>Comercial: </b><a href="#">neos@neos.ind.br</a></p>
+                    <p><b>Assistência Técnica: </b><a href="#">assistenciatecnica@neos.ind.br</a></p>
+                    <p><b>Equipe Comercial: </b>(31) 2538-0988 / (31) 3524-1456</p>
+                    <p><b>Assistência Técnica: </b>(31) 3224-1860</p>
+                </div>
+            </div>
         </div>
-        <div>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-        </div>
-        <div>
-            <label for="assunto">Assunto:</label>
-            <input type="text" id="assunto" name="assunto" required>
-        </div>
-        <div>
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
-        </div>
-        <button type="submit">Enviar</button>
-    </form>
+            <form id="contato_formulario">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu melhor e-mail" required>
+                </div>
+                <div>
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" id="assunto" name="assunto" placeholder="Digite o assunto" required>
+                </div>
+                <div>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+    </div>
 
     <div id="footer"></div>
 </body>
